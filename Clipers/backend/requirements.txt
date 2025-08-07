@@ -12,3 +12,13 @@ matplotlib>=3.7.0
 soundfile==0.12.1
 google-generativeai==0.7.1
 python-dotenv==1.0.0
+# パフォーマンス監視とメモリ管理
+psutil>=5.9.0
+# レート制限
+slowapi>=0.1.9
+# 構造化ログ
+structlog>=23.1.0
+# 非同期処理
+asyncio-throttle>=1.0.2
+# キャッシュ
+cachetools>=5.3.0
